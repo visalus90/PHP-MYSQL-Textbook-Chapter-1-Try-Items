@@ -4,9 +4,10 @@ Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-I
 
 <?php
 $nutrition - [
-  'fat'      => 16,
-  'sugar'    => 51,
-  'salt'     => 6.3,
+  'fat'      => 42,
+  'sugar'    => 60,
+  'salt'     => 3.5,
+  'protein'  => 2.6,
 ];
 ?>
 <!DOCTYPE html>
@@ -18,6 +19,7 @@ $nutrition - [
     <p>Fat:  <?php echo $nutrition['fat']; ?></p>
     <p>Sugar:  <?php echo $nutrition['sugar']; ?></p>
     <p>Salt:  <?php echo $nutrition['salt']; ?></p>
+    <p>Protein:  <?php echo $nutrition['protein']; ?></p>
   </body>
 </html>
 
