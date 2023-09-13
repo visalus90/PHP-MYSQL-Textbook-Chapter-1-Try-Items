@@ -4,8 +4,8 @@ Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-I
 
 <?php
 $item       = 'chocolate';
-$stock      = 5;
-$wanted     = 8;
+$stock      = 8;
+$wanted     = 5;
 $can_buy    = ($wanted <= $stock);
 ?>
 <!DOCTYPE html>
