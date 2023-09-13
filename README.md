@@ -4,8 +4,8 @@ Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-I
 
 <?php
 $prefix   = 'Thank you';
-$name     = 'Ivy';
-$message  = $prefix . ', ' . $name;
+$name     = 'Bailey';
+$message  = "$prefix $name";
 ?>
 <!DOCTYPE html>
 <html>
