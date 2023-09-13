@@ -4,6 +4,7 @@ Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-I
 
 <?php
 $name   = 'Bailey';
+$name   = "McKay';
 $price  = 2;
 ?>
 <!DOCTYPE html>
