@@ -3,8 +3,8 @@ Class: 2023 Fall Term Introduction to PHP DGL-123<br>
 Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-Items.git
 
 <?php
-$items         = 3;
-$cost          = 5;
+$items         = 5;
+$cost          = 12;
 $subtotal      = $cost * $items;
 $tax           = ($subtotal / 100) * 20;
 $total         = $subtotal + $tax;
