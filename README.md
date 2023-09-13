@@ -3,23 +3,21 @@ Class: 2023 Fall Term Introduction to PHP DGL-123<br>
 Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-Items.git
 
 <?php
-$nutrition - [
-  'fat'      => 42,
-  'sugar'    => 60,
-  'salt'     => 3.5,
-  'protein'  => 2.6,
-];
+$best_sellers = ['Chocolate', 'Mint', 'Fudge',
+    'Bubble gum', 'Toffee', 'Jelly beans',];
 ?>
 <!DOCTYPE html>
 <html>
   <head> ... </head>
   <body>
     <h1>The Candy Store</h1>
-    <h2>Nutrition (per 100g)</h2>
-    <p>Fat:  <?php echo $nutrition['fat']; ?></p>
-    <p>Sugar:  <?php echo $nutrition['sugar']; ?></p>
-    <p>Salt:  <?php echo $nutrition['salt']; ?></p>
-    <p>Protein:  <?php echo $nutrition['protein']; ?></p>
+    <h2>Best Sellers</h2>
+    <u1>
+      <li><?php echo $best_sellers[0]; ?></li>
+      <li><?php echo $best_sellers[1]; ?></li>
+      <li><?php echo $best_sellers[2]; ?></li>
+    </u1>
   </body>
 </html>
+
 
