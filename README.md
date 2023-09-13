@@ -3,8 +3,8 @@ Class: 2023 Fall Term Introduction to PHP DGL-123<br>
 Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-Items.git
 
 <?php
-$name   = 'Ivy';
-$price  = 5;
+$name   = 'Bailey';
+$price  = 2;
 ?>
 <!DOCTYPE html>
 <html>
