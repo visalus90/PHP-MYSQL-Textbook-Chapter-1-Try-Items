@@ -4,9 +4,10 @@ Repository Link: https://github.com/visalus90/PHP-MYSQL-Textbook-Chapter-1-Try-I
 
 <?php
 $item       = 'chocolate';
-$stock      = 8;
-$wanted     = 5;
-$can_buy    = ($wanted <= $stock);
+$stock      = 5;
+$wanted     = 3;
+$deliver    = true;
+$can_buy    = (($wanted <= $stock) && ($deliver == true));
 ?>
 <!DOCTYPE html>
 <html>
@@ -16,7 +17,7 @@ $can_buy    = ($wanted <= $stock);
     <h2>Shopping Cart</h2>
     <p>Item: <? $item ?></p>
     <p>Stock: <? $stock ?></p>
-    <p>Wanted: <? $wanted ?></p>
+    <p>Ordered: <? $wanted ?></p>
     <p>Can buy: <? $can_buy ?></p>
   </body>
 </html>
